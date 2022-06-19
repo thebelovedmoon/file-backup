@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="youjokitan.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="icon" href="mahoroba_favi.png" type="image/x-icon">
+        <style>
+            @font-face {
+                font-family: "MahorobaB";
+                src: url(A-OTFMaruB.otf);
+            }
+            body {
+                font-family: "MahorobaB";
+                background-image: url(mahoroba_bg.jpg);
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            .timer {
+                position: absolute;
+                top: 37.5%;
+                left: 50%;
+                -moz-transform: translateX(-50%) translateY(-50%);
+                -ms-transform: translateX(-50%) translateY(-50%);
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                -o-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+                text-align: center;
+                color: #fff;
+                line-height: 0;
+                font-size: 128px;
+            }
+        </style>
+        <script src="countdown.js"></script>
+    </head>
+    <body>
+        <p id="sayonara" class="timer"></p>
+    </body>
+</html>
